@@ -1,6 +1,5 @@
 ## IUP: Image uploader  
 
------------------  
 ![screenshot][screenshot]
 
 
