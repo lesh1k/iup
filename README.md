@@ -1,9 +1,11 @@
 ## IUP: Image uploader  
 
-![screenshot][screenshot]
-
+![screenshot][screenshot]  
 
 ----------------  
+Currently, iup requires jQuery.  
+It has been tested with 1.10, thus 1.10+ should work. Earlier versions are not guaranteed to work.  
+  
 To initialise the plugin, use:  
 ```
 iup(TARGET_CONTAINER_SELECTOR, OPTIONS_OBJECT); // i.e. iup('#image-uploader', {items: response.images})
