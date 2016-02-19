@@ -23,7 +23,7 @@ iup('#image-uploader', {
         selectors: {},
     })
 ```  
-NOTE: Rows and columns were considered not to be required and thus, 5 columns and 2 rows will result in just 10 items and not precisely 5 in each row.
+NOTE: Druing development, the need for rows and columns was eliminated and thus, 5 columns and 2 rows will result in just 10 items and not precisely 5 in each row.
 
   
 2. via data-attributes on target container:  
