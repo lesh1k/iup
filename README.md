@@ -1,7 +1,6 @@
 ## IUP: Image uploader  
 
------------------  
-[screenshot]
+![screenshot][screenshot]
 
 
 ----------------  
@@ -10,10 +9,22 @@ To initialise the plugin, use:
 iup(TARGET_CONTAINER_SELECTOR, OPTIONS_OBJECT); // i.e. iup('#image-uploader', {items: response.images})
 ```  
 
-Options can be supplied in two ways,  
-via JS (on initialisation):
+Options can be supplied in two ways:   
+  
+1. via JS (on initialisation):
+```
+iup('#image-uploader', {
+        columns: 5,
+        items: [], // Sample item: {id: "SOME_STRING", src: "path/to/thumb/img", preview_src: "path/to/img/preview"}
+        preview_enable: true,
+        rows: 2,
+        selectors: {},
+    })
+```  
+NOTE: Rows and columns were considered not to be required and thus, 5 columns and 2 rows will result in just 10 items and not precisely 5 in each row.
 
-And via data-attributes on target container:  
+  
+2. via data-attributes on target container:  
 ```
 <div id="image-uploader" data-actions.remove.config.url="444" data-actions.upload.config.url="AAAA"></div>  
 ```   
