@@ -1,5 +1,9 @@
 ## IUP: Image uploader  
 
+-----------------  
+[screenshot]
+
+
 ----------------  
 To initialise the plugin, use:  
 ```
@@ -41,3 +45,5 @@ To destroy an initialised instance:
 ```
 iup('#image-uploader', 'destroy');
 ```   
+
+[screenshot]: https://raw.githubusercontent.com/lesh1k/iup/master/screenshot.png
